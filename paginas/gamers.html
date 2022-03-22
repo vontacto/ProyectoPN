@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Computacion, POLINET">
+
+    <link rel="stylesheet" type="text/css" href="../css/estilos2.css">
+    <link rel="icon" type="image/jpg" href="../imagenes/IconLogo.PNG">
+    <script src="https://kit.fontawesome.com/a9365d9272.js"></script>
+    <title>GAMING POLINET</title>
+</head>
+<body>
+    <div class="box">
+        <div class="logoCabezera">
+            <a href="index2.html"><img src="../imagenes/Logo3.png" alt="Logo"></a>
+            <input type="text" id="search_box" placeholder="Busque aqui">
+            <img src="../imagenes/ImagenesIndex/Iconos/I7.png" class="iconoLogin" alt="Login" onclick="menuToggle();"> 
+            <img src="../imagenes/ImagenesIndex/Iconos/I5.png" class="iconoLogin" alt="carrito">       
+        </div>
+        <div>
+            <ul class="navs">
+                <li class="nav"><a href="">Todas las Categorias</a></li>
+                <li class="nav"><a href="index2.html">Inicio</a></li>
+                <li class="nav"><a href="catalogoPro.html">Catalogo</a></li>
+                <li class="nav"><a href="ofertas.html">Ofertas</a></li>
+                <li class="nav"><a href="marcas.html">Marcas</a></li>
+                <li class="nav"><a href="gamers.html">Gamer</a></li>
+                <li class="nav"><a href="contactanos.html">Contactanos</a></li>
+            </ul>
+        </div>
+        <div class="login-form">
+            <h1>Login</h1>
+            <ul id="login_list">
+                
+                <li><input type="txt" class="txt" type="text" placeholder="Ingrese su usuario"></li>
+                <li><input type="txt" class="txt" type="password" placeholder="Ingrese su Contraseña"></li>
+                <p><input type="checkbox">Guardar Contraseña</p>
+                <li><input type="button" class="button" value="Login"></li>
+            </ul>
+        </div>
+        
+    </div>
+    
+    <script>
+        function menuToggle(){
+            const toggleMenu = document.querySelector('.login-form');
+            toggleMenu.classList.toggle('active')
+        }
+    </script>
+</body>
+</html>
