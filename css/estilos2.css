@@ -133,13 +133,14 @@ label #btn, label #cancel{
     border-radius: 3px;
 }
 label #btn{
-    right: 2pc;
+    right: 2px;
     top: 20px;
     font-size: 20px;
     color: black;
     padding: 6px 10px;
     transition: all .2s ease;
 }
+/*
 #check:checked ~ #login_form{
     top: 0;
 }
@@ -383,14 +384,12 @@ textarea{
 }
 /**/
 .estre{
-    width: 200px;
-    margin-left: 60px;
-    margin-right: 60px;
+    width: 180px;
     height: 50px;
 }
 
 .estre.clasi{
-    text-align: center;    
+    text-align: left;    
 }
 .estre.r{
     font-size: 20px;
@@ -408,57 +407,43 @@ input[type="radio"]{
 .r:hover,.r:hover ~ .r{
     color: orange;
 }
-input[type="radio"]:checked ~ .r{
+input[type="radio"]:checked ~ .r{ /* el ~ jala todo tolo lo el valor siguiente*/
     color: orange;
 }
 /**/
 .col-lg-9{
-    flex: 0 0 75%;
-    max-width: 75%;
-    position: relative;
     width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-}
-.d-d{
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: -15px;
-    margin-right: -15px;
-    padding: 1rem;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
 }
 .col-md-3{
-    flex: 0 0 25%;
-    max-width: 25%;
-    position: relative;
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 .conte3{
-    margin-top: 0.25rem;
-    display: inline-block;
-    vertical-align: middle;
-    transform: perspective(1px) translateZ(0);
-    box-shadow: 0 0 1px transparent;
-    transition-duration: .3s;
-    transition-timing-function: ease-out;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    padding: 1rem;
 }
 .conte4{
     border: 1px solid rgb(63, 62, 62);
     border-radius: 1rem;
-}
-.d-i{
-    position: relative;
+    max-width: 200px;
+    max-height: 450px;
+    margin: 5px;
 }
 .a-img-o{
     display: block;
     position: relative;
+    text-align: center;
 }
 .img-o{
-    width: 100%;
+    width: 300px;
     border-radius: 1rem 1rem 0 0;
-    vertical-align: middle;
     border-style: none;
     max-width: 100%;
 }
