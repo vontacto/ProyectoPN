@@ -517,3 +517,71 @@ input[type="radio"]:checked ~ .r{ /* el ~ jala todo tolo lo el valor siguiente*/
     margin-right: 8px;
     display: inline-block;
 }
+
+.i-cuerpo{
+    display: block;
+}
+.conte-f{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.r-r{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    padding-top: 1rem;
+}
+.col-8{
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.col-4{
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.a-i-index{
+    width: 100%;
+    background-color: transparent;
+    display: block;
+}
+.img-index{
+    width: 100%;
+    border-radius: 1rem;
+    vertical-align: middle;
+    border-style: none;
+    max-width: 100%;
+}
+.sb{
+    overflow: hidden;
+    position: relative;
+    width: 33.3%;
+}
+.mt{
+    margin-top: 1.5rem;
+}
+.a-index{
+    display: block;
+    background-color: transparent;
+}
+.img2-index{
+    width: 100%;
+    border-radius: 1rem;
+    vertical-align: middle;
+    border-style: none;
+    max-width: 100%;
+}
+.medi{
+    overflow: hidden;
+    position: relative;
+    width: 66.6%;
+    width: 821px;
+}
