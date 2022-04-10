@@ -585,3 +585,41 @@ input[type="radio"]:checked ~ .r{ /* el ~ jala todo tolo lo el valor siguiente*/
     width: 66.6%;
     width: 821px;
 }
+
+.img3-index{
+    border-radius: 1rem;
+    vertical-align: middle;
+    border-style: none;
+    max-width: 100%;
+}
+
+.a-in{
+    display: inline-block;
+}
+.sdd{
+    position: relative;
+    width: 100%;
+    padding: 0.25rem;
+    flex: 0 0 32%;
+    max-width: 32%;
+}
+.fxd{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.conte-3-img{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.conte30{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 1rem;
+}
