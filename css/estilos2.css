@@ -43,6 +43,7 @@ body,html{
 }
 
 .login-form.active{
+    display: grid;
     visibility: visible;
     opacity: 1;
 }
@@ -607,23 +608,23 @@ input[type="radio"]:checked ~ .r{ /* el ~ jala todo tolo lo el valor siguiente*/
     border-radius: 1rem;
 }
 .cat-mdd{
-    display: flex;
+    display: grid;
     flex-wrap: wrap;
     margin-right: 2%;
     margin-left: 2%;
+    grid-template-columns: 200px 1400px;
+    grid-template-rows: 1750px 0px;
 }
-.mov{
-    position: relative;
-    width: 100%;
-    margin-right: 15px;
-    margin-left: 15px;
+
+.gam-mdd{
+    display: grid;
+    flex-wrap: wrap;
+    margin-right: 2%;
+    margin-left: 2%;
+    grid-template-columns: 250px 1500px;
+    grid-template-rows: 1850px 0px;
 }
-.space1{
-    max-width: 20%;
-}
-.space2{
-    max-width: 75%;
-}
+
 .search-pequeño{
     margin-left: 10%;
     margin-right: 10%;
