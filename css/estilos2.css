@@ -125,37 +125,7 @@ body,html{
     float: right;
 
 }
-/*
-#check{
-    display: none;
-}
-label #btn, label #cancel{
-    position: absolute;
-    cursor: pointer;
-    background: white;
-    border-radius: 3px;
-}
-label #btn{
-    right: 2px;
-    top: 20px;
-    font-size: 20px;
-    color: black;
-    padding: 6px 10px;
-    transition: all .2s ease;
-}
-/*
-#check:checked ~ #login_form{
-    top: 0;
-}
-#check:checked ~ label #btn{
-    right: 0px;
-    opacity: 0;
-    pointer-events: none;
-}
-#check:checked ~ label #cancel{
-    top: 55px;
-}
-*/
+
 .navs{
     list-style-type: none;
     margin: 0;
@@ -640,4 +610,15 @@ input[type="radio"]:checked ~ .r{ /* el ~ jala todo tolo lo el valor siguiente*/
 }
 .space2{
     max-width: 75%;
+}
+.search-pequeño{
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 30px;
+    width: 300px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
 }
