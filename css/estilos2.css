@@ -156,9 +156,8 @@ body,html{
     display: flex;
     flex-direction: column;
     min-width: 0;
-    word-wrap: break-word;
+    word-wrap: break-word;                                                                                                                                             /*salto de linea*/
     background-color: #fff;
-    background-clip: border-box;
     border: 1px solid rgba (0,0,0,.125);
     border-radius: 0.25rem;
     flex: 0 0 100%;
@@ -197,6 +196,8 @@ body,html{
     grid-template-columns: 610px 610px;
     grid-template-rows: 100px 100px;
 }
+
+/*Contenedor donde se encuentras los input*/
 .col-md-6{
     flex: 0 0 50%;
     max-width: 50%;
@@ -214,7 +215,7 @@ body,html{
     padding-left: 15px;
 }
 .col-md-4{
-    flex: 0 0 33.333%;
+    flex: 0 0 33.333%;                                                                                                                                                  /*contenedor %*/
     max-width: 33.333%;
     position: relative;
     width: 100%;
@@ -369,7 +370,7 @@ input[type="radio"]{
     color: grey;
 }
 .clasi{
-    direction: rtl;
+    direction: rtl;                                                                                                                             /* para que el texto vaya de der. a izq*/
     unicode-bidi: bidi-override;
 }
 .r:hover,.r:hover ~ .r{
@@ -379,6 +380,7 @@ input[type="radio"]:checked ~ .r{ /* el ~ jala todos los valores siguientes */
     color: orange;
 }
 
+/*Clase usada para centrar index*/
 .centrada{
     width: 100%;
     padding-right: 0px;
@@ -386,6 +388,8 @@ input[type="radio"]:checked ~ .r{ /* el ~ jala todos los valores siguientes */
     margin-right: 5%;
     margin-left: 5%;
 }
+
+/*Contenedores ofertas*/
 .col-lg-9{
     width: 100%;
     padding-right: 0px;
@@ -500,6 +504,8 @@ input[type="radio"]:checked ~ .r{ /* el ~ jala todos los valores siguientes */
     margin-right: auto;
     margin-left: auto;
 }
+
+/*Acomodar publicidad principal*/
 .r-r{
     display: grid;
     flex-wrap: wrap;
@@ -562,7 +568,7 @@ input[type="radio"]:checked ~ .r{ /* el ~ jala todos los valores siguientes */
     width: 66.6%;
     width: 821px;
 }
-
+/*contenedores publicidad pequeña - index*/
 .img3-index{
     border-radius: 1rem;
     vertical-align: middle;
@@ -573,6 +579,7 @@ input[type="radio"]:checked ~ .r{ /* el ~ jala todos los valores siguientes */
 .a-in{
     display: inline-block;
 }
+
 .sdd{
     position: relative;
     width: 100%;
@@ -586,6 +593,7 @@ input[type="radio"]:checked ~ .r{ /* el ~ jala todos los valores siguientes */
     margin-right: -15px;
     margin-left: -15px;
 }
+
 .conte-3-img{
     width: 100%;
     padding-right: 15px;
@@ -606,6 +614,8 @@ input[type="radio"]:checked ~ .r{ /* el ~ jala todos los valores siguientes */
     display: flex;
     flex-wrap: wrap;
 }
+
+/*Centrado de contenedores categoria*/
 .cat-mdd{
     display: grid;
     flex-wrap: wrap;
@@ -615,6 +625,7 @@ input[type="radio"]:checked ~ .r{ /* el ~ jala todos los valores siguientes */
     grid-template-rows: 1750px 0px;
 }
 
+/*Centrado de contenedores gamer*/
 .gam-mdd{
     display: grid;
     flex-wrap: wrap;
@@ -623,7 +634,7 @@ input[type="radio"]:checked ~ .r{ /* el ~ jala todos los valores siguientes */
     grid-template-columns: 250px 1500px;
     grid-template-rows: 1850px 0px;
 }
-
+ /*barra de búsqueda lateral*/
 .search-pequeño{
     margin-left: 10%;
     margin-right: 10%;
@@ -635,6 +646,8 @@ input[type="radio"]:checked ~ .r{ /* el ~ jala todos los valores siguientes */
     font-size: 15px;
     font-weight: 600;
 }
+
+/*Footer*/
 .f-area{
     display: block;
 }
@@ -718,6 +731,8 @@ input[type="radio"]:checked ~ .r{ /* el ~ jala todos los valores siguientes */
     display: inline-block;
     color: blue;
 }
+
+/*Aumento y arreglo del formulario*/
 .maps-form{
     width: 100%;
     height: 500px;
