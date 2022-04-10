@@ -623,3 +623,21 @@ input[type="radio"]:checked ~ .r{ /* el ~ jala todo tolo lo el valor siguiente*/
     border: 1px solid black;
     border-radius: 1rem;
 }
+.cat-mdd{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+.mov{
+    position: relative;
+    width: 100%;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.space1{
+    max-width: 20%;
+}
+.space2{
+    max-width: 75%;
+}
