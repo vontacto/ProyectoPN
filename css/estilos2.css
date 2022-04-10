@@ -414,6 +414,14 @@ input[type="radio"]:checked ~ .r{ /* el ~ jala todo tolo lo el valor siguiente*/
     color: orange;
 }
 /**/
+
+.centrada{
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: 5%;
+    margin-left: 5%;
+}
 .col-lg-9{
     width: 100%;
     padding-right: 0px;
@@ -529,11 +537,16 @@ input[type="radio"]:checked ~ .r{ /* el ~ jala todo tolo lo el valor siguiente*/
     margin-left: auto;
 }
 .r-r{
-    display: flex;
+    display: grid;
     flex-wrap: wrap;
     margin-right: -15px;
     margin-left: -15px;
     padding-top: 1rem;
+    grid-template-columns: 850px 1200px ;
+    grid-template-rows: 600px 0px ;
+    margin-right: 5%;
+    margin-left: 5%;
+
 }
 .col-8{
     position: relative;
