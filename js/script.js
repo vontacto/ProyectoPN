@@ -39,3 +39,12 @@ for(var i=0; i<document.getElementsByClassName("conte4").length; i++)
     document.getElementsByClassName("conte4")[i].setAttribute("onmouseover", "trasparente(this)");
     document.getElementsByClassName("conte4")[i].setAttribute("onmouseout", "nitido(this)");
 }
+function menuToggle(){
+    const toggleMenu = document.querySelector('.login-form');
+    toggleMenu.classList.toggle('active')
+}
+
+function menuToggle1(){
+    const toggleMenu = document.querySelector('.tienda-form');
+    toggleMenu.classList.toggle('active')
+}
