@@ -1,3 +1,15 @@
+var imgs=new Array("../imagenes/ImagenesIndex/PublicidadPrincipalIndex/PP1.png","../imagenes/ImagenesIndex/PublicidadPrincipalIndex/PP2.PNG","../imagenes/ImagenesIndex/PublicidadPrincipalIndex/PP3.PNG",  
+"../imagenes/ImagenesIndex/PublicidadPrincipalIndex/PP4.PNG","../imagenes/ImagenesIndex/PublicidadPrincipalIndex/PP5.jpg","../imagenes/ImagenesIndex/PublicidadPrincipalIndex/PP6.png","../imagenes/ImagenesIndex/PublicidadPrincipalIndex/PP7.png");
+
+var c=0;
+function carrusel(){
+    c++;
+    if(c>=7){c=0;}
+    document.getElementById("baner").setAttribute("src", imgs[c]);
+}
+
+setInterval(carrusel, 3000);
+
 function gira180(e){
     e.style.transform="rotateY(180deg)";
     e.style.transition="all 1s";
